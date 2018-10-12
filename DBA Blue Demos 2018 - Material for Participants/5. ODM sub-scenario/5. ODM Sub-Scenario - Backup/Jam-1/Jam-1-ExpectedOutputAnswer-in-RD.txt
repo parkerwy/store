@@ -1,0 +1,24 @@
+Values received from calling application:
+----------------------------------------
+Borrower: Borrower: Name Paul Smith Age 45
+   - Yearly income 100 000
+   - Bankruptcy on 1 juin 2014 for Unemployment filed under chapter 7
+Loan: Loan: Amount 100 000 Starting 1 juil. 2018 Duration 72 month(s)
+   - Loan to value 70%	
+----------------------------------------
+Processing rules now...
+----------------------------------------
+Values returned to calling application after rule processing:
+------------------------------------------------------------
+Borrower: Borrower: Name Paul Smith Age 45
+   - Yearly income 100 000
+   - Credit Score 150     
+   - Bankruptcy on 1 juin 2014 for Unemployment filed under chapter 7
+   - Salary Score 200     
+   - Bankruptcy Score -100     
+   - Corporate Score 250     
+Loan: Loan: Amount 100 000 Starting 1 juil. 2018 Duration 72 month(s)
+   - Loan to value 70%	
+   - Monthly repayments 1 619,787	
+   - Yearly interest rate 0,052
+------------------------------------------------------------

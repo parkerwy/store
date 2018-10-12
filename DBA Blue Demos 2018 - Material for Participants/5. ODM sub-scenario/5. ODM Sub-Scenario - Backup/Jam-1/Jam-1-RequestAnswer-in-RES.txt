@@ -1,0 +1,56 @@
+Request 
+
+ {
+  "loan": {
+    "numberOfMonthlyPayments": 120,
+    "startDate": "2018-07-01T01:18:33.000+0200",
+    "amount": 100000,
+    "loanToValue": 0.7,
+    "duration": 0,
+    "yearlyInterestRate": 0,
+    "monthlyRepayment": 0
+  },
+  "__DecisionID__": "string",
+  "borrower": {
+    "name": "Jane Doe",
+    "age": 40,
+    "yearlyIncome": 100000,
+    "creditScore": 0,
+    "salaryScore": 0,
+    "bankruptcyScore": 0,
+    "corporateScore": 0,
+    "latestBankruptcy": {
+      "date": "2014-09-29T03:49:45.000+0200",
+      "chapter": 7,
+      "reason": "Unemployment"
+    }
+  }
+}
+
+Response
+{
+  "borrower": {
+    "name": "Jane Doe",
+    "age": 40,
+    "yearlyIncome": 100000,
+    "creditScore": 100,
+    "salaryScore": 200,
+    "bankruptcyScore": -100,
+    "corporateScore": 200,
+    "latestBankruptcy": {
+      "date": "2014-09-29T01:49:45.000+0000",
+      "chapter": 7,
+      "reason": "Unemployment"
+    }
+  },
+  "__DecisionID__": "string",
+  "loan": {
+    "numberOfMonthlyPayments": 120,
+    "startDate": "2018-06-30T23:18:33.000+0000",
+    "amount": 100000,
+    "loanToValue": 0.7,
+    "duration": 10,
+    "yearlyInterestRate": 0.052,
+    "monthlyRepayment": 1070.457921580163
+  }
+}
