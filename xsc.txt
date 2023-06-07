@@ -1,0 +1,144 @@
+// SankeyMATIC diagram inputs - Saved: 4/23/2023, 10:14:35 PM
+// https://sankeymatic.com/build/
+
+// === Nodes and Flows ===
+
+// Enter Flows between Nodes, like this:
+//         Source [AMOUNT] Target
+
+
+第一组 [84] 五中
+第一组 [210] 二十六中
+第一组 [70] 九十七中
+第一组 [150] 海珠外国语实验
+第一组 [25] 六中珠江中学（逸景）
+第一组 [45] 绿翠现代实验学校
+第一组 [128] 南武实验
+第一组 [485] 五中滨江学校
+
+第二组 [65] 五中
+第二组 [163] 二十六中
+第二组 [190] 三十三中 
+第二组 [58] 四十一中（校本部）
+第二组 [120] 江南外国语 
+第二组 [32] 六中珠江中学（万胜围）
+第二组 [78] 南武中学 
+第二组 [50] 南武实验 
+
+第三组 [70] 五中
+第三组 [150] 三十三中
+第三组 [100] 四十一中（校本部）
+第三组 [164] 四十一中（东校区）
+第三组 [240] 海珠外国语附属学校
+第三组 [242] 江南外国语
+第三组 [32] 六中珠江中学（万胜围）
+第三组 [160] 南武中学 
+第三组 [40] 琶洲执信实验学校
+
+第四组 [40] 五中
+第四组 [60] 海珠外国语实验
+第四组 [27] 江南外国语
+第四组 [25] 六中珠江中学（万胜围）
+第四组 [40] 南武中学
+第四组 [175] 南武中学（岭南画派）
+第四组 [115] 晓园中学
+
+第五组 [90] 五中
+第五组 [54] 四十一中（校本部）
+第五组 [65] 九十七中
+第五组 [250] 东晓中学
+第五组 [160] 江南外国语
+第五组 [45] 六中珠江中学（逸景）
+第五组 [216] 蓝天中学
+第五组 [30] 劬劳中学
+
+第六组 [78] 六中
+第六组 [140] 九十七中
+第六组 [346] 聚德中学
+第六组 [327] 景中实验中学
+第六组 [195] 六中珠江中学（逸景）
+第六组 [276] 绿翠现代实验学校
+第六组 [30] 晓园中学
+第六组 [213] 琶洲执信实验学校
+
+
+第七组 [48] 四十一中（校本部）
+第七组 [78] 九十七中
+第七组 [54] 海珠外国语实验
+第七组 [165] 海珠外国语附属学校
+第七组 [33] 六中珠江中学（万胜围）
+第七组 [150] 蓝天中学
+第七组 [76] 南武中学
+第七组 [90] 南武实验
+第七组 [170] 晓园中学
+
+第八组 [2] 六中
+第八组 [2] 四十一中（校本部）
+第八组 [60] 六中珠江中学（万胜围）
+第八组 [232] 劬劳中学
+第八组 [4] 琶洲执信实验学校
+
+
+第九组 [2] 六中
+第九组 [2] 四十一中（校本部）
+第九组 [55] 六中珠江中学（万胜围）
+第九组 [286] 新浩中学
+第九组 [4] 琶洲执信实验学校
+
+
+第十组 [2] 六中
+第十组 [2] 四十一中（校本部）
+第十组 [48] 海珠区黄埔中学
+第十组 [2] 六中珠江中学（万胜围）
+第十组 [2] 琶洲执信实验学校
+
+
+
+// Use the controls below to customize
+// your diagram's appearance...
+
+// === Settings ===
+
+size w 600
+  h 1200
+margin l 12
+  r 12
+  t 18
+  b 20
+bg color #ffffff
+  transparent N
+node w 9
+  h 50
+  spacing 85
+  border 0
+  theme a
+  color #888888
+  opacity 1
+flow curvature 0.5
+  inheritfrom outside-in
+  color #999999
+  opacity 0.45
+layout order exact
+  justifyorigins N
+  justifyends N
+  reversegraph N
+  attachincompletesto nearest
+labels color #000000
+  highlight 0.55
+  fontface sans-serif
+labelname appears Y
+  size 16
+  weight 400
+labelvalue appears Y
+  fullprecision Y
+labelposition first before
+  breakpoint 3
+value format ',.'
+  prefix ''
+  suffix ''
+themeoffset a 9
+  b 0
+  c 0
+  d 0
+meta mentionsankeymatic Y
+  listimbalances Y
